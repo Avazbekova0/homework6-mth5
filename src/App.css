@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue';
+    background-color: black;
+    color: white;
+}
+
+h2{
+    color: red;
+    padding: 15px 15px;
+}
+
+.main_bg{
+    background-image: url('../src/img/i.jpg');
+    width: 100%;
+    height: 550px;
+}
+
+.main_bg h1{
+    color: white;
+    position: absolute;
+    padding: 100px;
+}
+
+input{
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    font-weight: 200;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(205, 13, 13);
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.744);
+    margin-top: 80px;
+    margin-left: 180px;
+    gap: 40px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border: 1px dashed white;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    margin-left: 100px;
+}
+
+.getMovies{
+    width: 300px;
+    display: flex;
+    margin:  200px;
+}
+
+.getMovies button{
+    margin-left:10px;
+}
+
+.getMovies h3{
+    text-align: center;
+}
